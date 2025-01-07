@@ -8,22 +8,22 @@ Este é um **Gerador de Senhas** feito em Python, usando **PySimpleGUI** para a 
 - **Interface Gráfica**: Criado com **PySimpleGUI** para uma experiência intuitiva.
 - **Salvar Senhas**: As senhas geradas são salvas em um arquivo `senhas.txt`.
 - **Limpar Terminal**: Botão para limpar a área de saída do terminal.
-  
+
 ## Uso
 
 1. Execute o script:
 
-```bash
-python gerador_senhas.py
+    ```bash
+    python gerador_senhas.py
+    ```
 
-2. Gerar Senha:
-Preencha o site/usuário e escolha a quantidade de caracteres.
-Clique em Gerar Senha para criar e visualizar a senha.
-3. Limpar Terminal: Clique no botão Limpar Terminal para limpar a saída.
+2. **Gerar Senha**: Preencha o site/usuário e escolha a quantidade de caracteres. Clique em **Gerar Senha** para criar e visualizar a senha.
 
-Arquivo de Senhas
-As senhas são salvas no arquivo senhas.txt com o seguinte formato:
-```bash
-site: <site>, usuario: <usuario>, nova senha: <senha>
-site: www.exemplo.com, usuario: exemplo_usuario, nova senha: d2Gs4j9u
+3. **Limpar Terminal**: Clique no botão **Limpar Terminal** para limpar a saída.
 
+## Arquivo de Senhas
+
+As senhas são salvas no arquivo `senhas.txt` com o seguinte formato:
+
+    site: <site>, usuario: <usuario>, nova senha: <senha>
+    site: www.exemplo.com, usuario: exemplo_usuario, nova senha: d2Gs4j9u
